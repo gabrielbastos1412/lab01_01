@@ -2,7 +2,7 @@ name: Hello Flow
 on: workflow_dispatch
 jobs:
  first-job:
-  runs-on: ubuntu
+  runs-on: ubuntu-latest
   steps:
    - name: diga oi
      run: echo "Hello World!"
